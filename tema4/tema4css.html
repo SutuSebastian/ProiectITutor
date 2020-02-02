@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tema 4 CSS</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+
+    <body>
+        <div id="top"></div>
+
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#top">Home</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#tables">Tables</a></li>
+                    <li><a href="#block-inline">Block & Inline Elements</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section id="gallery">
+                <h1>Gallery</h1>
+                <img
+                    height="400"
+                    src="https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2866&q=80"
+                />
+                <img
+                    height="400"
+                    src="https://images.unsplash.com/photo-1580629905259-bbf68482706d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2396&q=80"
+                />
+                <img
+                    height="400"
+                    src="https://images.unsplash.com/photo-1580625616242-40b69c0a460f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1268&q=80"
+                />
+            </section>
+
+            <section id="tables">
+                <h1>Tables</h1>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>1st Header Column</th>
+                            <th>2nd Header Column</th>
+                            <th>3rd Header Column</th>
+                            <th>4th Header Column</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Row 1 Element 1</td>
+                            <td>Row 1 Element 2</td>
+                            <td>Row 1 Element 3</td>
+                            <td>Row 1 Element 4</td>
+                        </tr>
+                        <tr>
+                            <td>Row 2 Element 1</td>
+                            <td>Row 2 Element 2</td>
+                            <td>Row 2 Element 3</td>
+                            <td>Row 2 Element 4</td>
+                        </tr>
+                        <tr>
+                            <td>Row 2 Element 1</td>
+                            <td>Row 2 Element 2</td>
+                            <td>Row 2 Element 3</td>
+                            <td>Row 2 Element 4</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section id="block-inline">
+                <h1>Block & Inline Elements</h1>
+
+                <label>Block element</label>
+                <div id="block-element">
+                    <div>I am a block element</div>
+                    <div>I am also a block element</div>
+                </div>
+
+                <label>Inline element</label>
+                <div id="inline-element">
+                    <span>I am the FIRST inline element</span>
+                    <span>I am the SECOND</span>
+                </div>
+            </section>
+
+            <a href="#top">Back to top</a>
+        </main>
+
+        <footer>All rights reserved &copy; Sutu Jeanu-Sebastian</footer>
+    </body>
+</html>
