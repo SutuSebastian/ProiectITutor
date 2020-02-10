@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tema 5 HTML</title>
+        <link rel="stylesheet" href="assets/css/styles.css" />
+    </head>
+    <body>
+        <main>
+            <button
+                type="button"
+                onclick="document.getElementById('dateTime').innerHTML = Date()"
+            >
+                Click to display Date and Time
+            </button>
+            <p id="dateTime"></p>
+
+            <div class="card">
+                card 1
+            </div>
+            <div id="middle-card" class="card">
+                card 2, also a special card
+            </div>
+            <div class="card">
+                card 3
+            </div>
+
+            <div id="images">
+                <h2>Some images located in another folder</h2>
+                <img src="assets/images/image_1.jpeg" />
+                <img src="assets/images/image_2.jpeg" />
+                <img src="assets/images/image_3.jpeg" />
+            </div>
+
+            <iframe src="https://sutusebastian.com" height="800" width="950">
+                <p>Your browser does not support iframes.</p>
+            </iframe>
+        </main>
+
+        <footer>All rights reserved &copy; Sutu Jeanu-Sebastian</footer>
+    </body>
+</html>

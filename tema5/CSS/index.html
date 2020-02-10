@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tema 5 CSS</title>
+        <link rel="stylesheet" href="assets/css/styles.css" />
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    </head>
+    <body>
+        <main>
+            <button
+                type="button"
+                onclick="document.getElementById('dateTime').innerHTML = Date()"
+            >
+                Click to display Date and Time
+            </button>
+            <p id="dateTime"></p>
+
+            <a id="fancy-link" target="_blank" href="https://youtube.com"
+                >Just a fancy external link</a
+            >
+
+            <div id="icons">
+                <p>Fontaweosme icons</p>
+                <i class="fas fa-car"></i>
+                <i class="fas fa-file"></i>
+                <i class="fas fa-bars"></i>
+            </div>
+
+            <div class="card">
+                card 1
+            </div>
+            <div id="middle-card" class="card">
+                card 2, also a special card
+            </div>
+            <div class="card">
+                card 3
+            </div>
+
+            <div id="images">
+                <h2>
+                    Some images located in another folder displayed in block
+                </h2>
+                <img src="assets/images/image_1.jpeg" />
+                <img src="assets/images/image_2.jpeg" />
+                <img src="assets/images/image_3.jpeg" />
+            </div>
+
+            <iframe src="https://sutusebastian.com" height="800" width="950">
+                <p>Your browser does not support iframes.</p>
+            </iframe>
+        </main>
+
+        <footer>All rights reserved &copy; Sutu Jeanu-Sebastian</footer>
+    </body>
+</html>
